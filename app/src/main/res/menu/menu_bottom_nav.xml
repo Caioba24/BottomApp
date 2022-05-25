@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/idBtnNavFav"
+        android:contentDescription="Favorito"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorito" />
+    <item
+        android:id="@+id/idBtnMsc"
+        android:contentDescription="Musica"
+        android:icon="@drawable/ic_baseline_music_note"
+        android:title="Musica" />
+    <item
+        android:id="@+id/idBtnLugar"
+        android:contentDescription="Lugar"
+        android:icon="@drawable/ic_baseline_place"
+        android:title="Lugar" />
+    <item
+        android:id="@+id/idBtnNews"
+        android:contentDescription="Jornal"
+        android:icon="@drawable/ic_baseline_event_note"
+        android:title="Jornal" />
+</menu>

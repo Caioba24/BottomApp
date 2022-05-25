@@ -11,7 +11,10 @@
         android:theme="@style/Theme.MyApp">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false" />
+        <activity
+            android:name=".GaleriaActivity"
+            android:exported="true" android:theme="@style/Theme.MyApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
