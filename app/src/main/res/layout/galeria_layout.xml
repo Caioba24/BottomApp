@@ -14,13 +14,13 @@
             android:id="@+id/TabGato"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gato" />
+            android:text="@string/cachorro" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/TabDog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cachorro" />
+            android:text="@string/gato" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/TabBird"
@@ -31,5 +31,11 @@
 
     </com.google.android.material.tabs.TabLayout>
 
+    <ListView
+        android:id="@+id/ListaAnimais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/modelo_animais_cachorro"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
