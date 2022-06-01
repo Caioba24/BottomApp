@@ -22,7 +22,7 @@
             android:textSize="15sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Vose Adotaria esse cachorro burro?"
+            android:text="Quer me adotar não paizao???"
             android:gravity="center"
             android:textColor="#000"
             android:textStyle="bold" />
